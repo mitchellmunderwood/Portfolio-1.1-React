@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  padding: 10px;
+  min-height: 640px;
+  background: rgb(255, 255, 255);
+}
+
+#top {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    min-height: 616px;
+  }
+}
