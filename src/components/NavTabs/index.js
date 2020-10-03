@@ -4,12 +4,12 @@ import "./style.css";
 
 function NavTabs() {
   return (
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-md navbar-dark">
+      <a className="navbar-brand" href="#">
         Mitchell Underwood
       </a>
-      <div class="navbar-collapse" id="collapsibleNavbar">
-        <div class="navbar-nav">
+      <div className="navbar-collapse" id="collapsibleNavbar">
+        <div className="navbar-nav">
           <div>
             <Link to="/">About</Link>
             <Link to="/Portfolio">Portfolio</Link>
