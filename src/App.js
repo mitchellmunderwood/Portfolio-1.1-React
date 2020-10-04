@@ -15,11 +15,7 @@ function App() {
         <NavTabs />
         <main>
           <Switch>
-            <Route
-              exact
-              path={["/React-Portfolio/", "/React-Portfolio/home"]}
-              component={Home}
-            />
+            <Route exact path="/React-Portfolio/" component={Home} />
             <Route exact path="/React-Portfolio/contact" component={Contact} />
             <Route
               exact
