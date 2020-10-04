@@ -1,5 +1,11 @@
 import React from "react";
 import "./style.css";
+import image_ppc from "../../content/images/ppc.png";
+import image_quiz from "../../content/images/quiz.png";
+import image_burger from "../../content/images/burger.png";
+import image_weather from "../../content/images/weather.png";
+import image_password from "../../content/images/password.png";
+import image_parent_connect from "../../content/images/parent_connect.png";
 
 function Portfolio() {
   return (
@@ -27,7 +33,7 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-              <img src="./assets/images/ppc.png" alt="" />
+              <img src={image_ppc} alt="" />
             </div>
             <div class="card project">
               <div class="card_title">
@@ -47,7 +53,7 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-              <img src="./assets/images/weather.png" alt="" />
+              <img src={image_weather} alt="" />
             </div>
             <div class="card project">
               <div class="card_title">
@@ -67,7 +73,7 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-              <img src="./assets/images/password.png" alt="" />
+              <img src={image_password} alt="" />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
@@ -89,7 +95,7 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-              <img src="./assets/images/parent_connect.png" alt="" />
+              <img src={image_parent_connect} alt="" />
             </div>
             <div class="card project">
               <div class="card_title">
@@ -109,7 +115,7 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-              <img src="./assets/images/quiz.png" alt="" />
+              <img src={image_quiz} alt="" />
             </div>
             <div class="card project">
               <div class="card_title">
@@ -129,7 +135,7 @@ function Portfolio() {
                   </a>
                 </div>
               </div>
-              <img src="./assets/images/burger.png" alt="" />
+              <img src={image_burger} alt="" />
             </div>
           </div>
         </div>

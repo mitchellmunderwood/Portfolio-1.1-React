@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import image from "../../content/images/Mitchell_new.jpg";
 
 function Home() {
   return (
@@ -8,11 +9,7 @@ function Home() {
       <div id="inner_card" className="card">
         <div>
           <div className="about">
-            <img
-              className="about_img"
-              src="./assets/images/Mitchell_new.jpg"
-              alt=""
-            />
+            <img className="about_img" src={image} alt="" />
           </div>
           <p>
             So, here's a little about me. I'm currently training to become a
