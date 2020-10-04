@@ -5,15 +5,15 @@ import "./style.css";
 function NavTabs() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark">
-      <Link className="navbar-brand" to="/React-Portfolio/">
+      <Link className="navbar-brand" to="/">
         Mitchell Underwood
       </Link>
       <div className="navbar-collapse" id="collapsibleNavbar">
         <div className="navbar-nav">
           <div>
-            <Link to="/React-Portfolio/About">About</Link>
-            <Link to="/React-Portfolio/Portfolio">Portfolio</Link>
-            <Link to="/React-Portfolio/Contact">Contact</Link>
+            <Link to="/about">About</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
       </div>
