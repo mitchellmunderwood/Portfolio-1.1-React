@@ -22,7 +22,7 @@ function App() {
               path="/React-Portfolio/portfolio"
               component={Portfolio}
             />
-            <Route path="*" component={Home} />
+            <Route component={Home} />
           </Switch>
         </main>
       </Router>
