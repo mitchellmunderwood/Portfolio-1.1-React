@@ -11,9 +11,9 @@ function NavTabs() {
       <div className="navbar-collapse" id="collapsibleNavbar">
         <div className="navbar-nav">
           <div>
-            <Link to="/">About</Link>
-            <Link to="/Portfolio">Portfolio</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/React-Portfolio/About">About</Link>
+            <Link to="/React-Portfolio/Portfolio">Portfolio</Link>
+            <Link to="/React-Portfolio/Contact">Contact</Link>
           </div>
         </div>
       </div>
