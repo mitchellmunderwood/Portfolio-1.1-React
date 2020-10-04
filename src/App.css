@@ -52,3 +52,8 @@ main {
     min-height: 616px;
   }
 }
+
+#app {
+  position: relative;
+  min-height: 95vh;
+}

@@ -9,16 +9,16 @@ import image_parent_connect from "../../content/images/parent_connect.png";
 
 function Portfolio() {
   return (
-    <div id="top" class="card">
-      <div class="card-body">
-        <h1 class="font-weight-bold text-center">Portfolio</h1>
+    <div id="top" className="card">
+      <div className="card-body">
+        <h1 className="font-weight-bold text-center">Portfolio</h1>
         <br />
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="card project">
-              <div class="card_title">
+        <div className="row">
+          <div className="col-md-6 col-sm-12">
+            <div className="card project">
+              <div className="card_title">
                 <h3>Party Planner</h3>
-                <div class="card_links">
+                <div className="card_links">
                   <a
                     href=" https://sassypigeon.github.io/Party_Planning_Committee/home.html"
                     target="_blank"
@@ -35,10 +35,10 @@ function Portfolio() {
               </div>
               <img src={image_ppc} alt="" />
             </div>
-            <div class="card project">
-              <div class="card_title">
+            <div className="card project">
+              <div className="card_title">
                 <h3>Weather App</h3>
-                <div class="card_links">
+                <div className="card_links">
                   <a
                     href="https://sassypigeon.github.io/Weather_App/"
                     target="_blank"
@@ -55,10 +55,10 @@ function Portfolio() {
               </div>
               <img src={image_weather} alt="" />
             </div>
-            <div class="card project">
-              <div class="card_title">
+            <div className="card project">
+              <div className="card_title">
                 <h3>Password Generator</h3>
-                <div class="card_links">
+                <div className="card_links">
                   <a
                     href="https://sassypigeon.github.io/Password_Generator/"
                     target="_blank"
@@ -76,11 +76,11 @@ function Portfolio() {
               <img src={image_password} alt="" />
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="card project">
-              <div class="card_title">
+          <div className="col-md-6 col-sm-12">
+            <div className="card project">
+              <div className="card_title">
                 <h3>Parent Connect</h3>
-                <div class="card_links">
+                <div className="card_links">
                   <a
                     href="https://project-mcginnis.herokuapp.com/"
                     target="_blank"
@@ -97,10 +97,10 @@ function Portfolio() {
               </div>
               <img src={image_parent_connect} alt="" />
             </div>
-            <div class="card project">
-              <div class="card_title">
+            <div className="card project">
+              <div className="card_title">
                 <h3>Code Quiz</h3>
-                <div class="card_links">
+                <div className="card_links">
                   <a
                     href="https://sassypigeon.github.io/Code_Quiz/"
                     target="_blank"
@@ -117,10 +117,10 @@ function Portfolio() {
               </div>
               <img src={image_quiz} alt="" />
             </div>
-            <div class="card project">
-              <div class="card_title">
+            <div className="card project">
+              <div className="card_title">
                 <h3>Eat-Da-Burger!</h3>
-                <div class="card_links">
+                <div className="card_links">
                   <a
                     href="https://enigmatic-headland-31182.herokuapp.com/"
                     target="_blank"
