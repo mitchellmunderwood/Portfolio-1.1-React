@@ -1,99 +1,139 @@
-# Unit 20 React Homework: React Portfolio
+<h1 align="center">
+  <br>
+  <!-- image/logo link -->
+  <a href="https://mitchellmunderwood.github.io/React-Portfolio/"><img src="./README-Support/logo.png" alt="React Portfolio" width="200" height="200"></a>
+  <br>
+  React Porfolio
+  <br>
+</h1>
 
-Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+<h4 align="center">
+<!-- Description of Project -->
+My current portfolio, constructed using React and hosted on Github Pages.
+</h4>
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+<p align="center">
+<!-- List of Contributors -->
+React Portfolio is brought to you by <a href="https://github.com/mitchellmunderwood" target="_blank">Mitchell Underwood</a>.
+</p>
 
-## Requirements
+<p align="center">
+React Portfolio is currently deployed with github pages at <a href="https://mitchellmunderwood.github.io/React-Portfolio/" target="_blank">mitchellmunderwood.github.io/React-Portfolio/</a>.
+</p>
 
-* Updated portfolio featuring 6 total projects
+<p align="center">
+<!-- line for badges -->
+    <img src="https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=blue"
+         alt="HTML5">
+    <img src="https://img.shields.io/badge/Code-CSS3-informational?style=flat&logo=css3&logoColor=white&color=blue"
+         alt="CSS3">
+    <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=blue"
+         alt="JavaSript">
+    <img src="https://img.shields.io/badge/Code-React-informational?style=flat&logo=react&logoColor=white&color=blue"
+         alt="React">
+<br>
+<!-- line for badges -->
+    <img src="https://img.shields.io/badge/Deploy-Github-informational?style=flat&logo=github&logoColor=white&color=blue"
+         alt="Heroku">
+    <img src="https://img.shields.io/badge/License-MIT-informational?style=flat&logo=mit&logoColor=white&color=blue"
+         alt="MIT License">
+</p>
 
-* Use React
+<p align="center">
+    <!-- table of contents -->
+  <a href="#gallery">Gallery</a> •
+  <a href="#description">Description</a> •
+  <a href="#license">License</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#questions">Questions</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#acknowledgements">Acknowledgements</a>
+</p>
 
-* A `Header` component that appears on multiple pages
+<p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
 
-* A single `Project` component that will be used multiple times on a single page 
+## Gallery
 
-* Navigation with React Router, dynamic rendering, or another third part router
+<p align="center">
+    <img src="./README-Support/gallery-1.png"
+         width="80%" height="auto">
+<br/>
+<p align="center">
+    <img src="./README-Support/gallery-2.png"
+         width="80%" height="auto">
+<br/>
 
-* A `Footer` component that appears on multiple pages
+## Description
 
-* Update GitHub profile with pinned repositories featuring those same projects
+This project is a version of my portfolio developed using the React front-end framework.
 
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+## License
 
-## Grading
+React Portfolio is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT) and is available for free.
 
-| Requirement    | Weight |
-| -------------- | ------ |
-| Portfolio      | 90%    |
-| GitHub Profile | 10%    |
+## Installation
 
+Clone this repo to your desktop and run `npm install` to install all the dependencies.
 
-## Instructions
+## Usage
 
-* [Updated Portfolio](#updated-portfolio)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-* [Design](#design)
+###### Available Scripts
 
-* [React](#react)
+In the project directory, you can run:
 
-* [Updated LinkedIn Profile](#updated-linkedin-profile)
+###### `nodemon serve.js`
 
-### Updated Portfolio
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Your updated site should still have all of the content it previously had:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-* Your name
+## Questions
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+For additional questions, email Mitchell Underwood at ***mitchellmunderwood@gmail.com***
 
-* A link to a PDF of your resume with updated projects
+## Contributing
 
-* A list of projects. For each project, make sure you have the following:
+Want to contribute? Great!
 
-  * Project title
+To fix a bug or enhance an existing feature, follow these steps:
 
-  * Link to the deployed version
+- Fork the repo
+- Create a new branch `git checkout -b improve-feature`
+- Make the appropriate changes in the files
+- Commit your changes `git commit -am 'Improve feature'`
+- Push to the branch `git push origin improve-feature`
+- Create a Pull Request
 
-  * Link to the GitHub repository
+## Contributors
 
-  * GIF or screenshot of the deployed application
+|                                                                      | Name               | Github                                                     | LinkedIn                                                                         | Portfolio                                                    |
+| -------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="./README-Support/mitchell.jpg" width="150" height="150" /> | Mitchell Underwood | <a href="https://github.com/mitchellmunderwood">Github</a> | <a href="https://www.linkedin.com/in/mitchell-underwood-295455122/">LinkedIn</a> | <a href="https://mitchellmunderwood.github.io/">Porfolio</a> |
 
+## Acknowledgements
 
-#### Design
+This project utilizes the following open source tools:
 
-As with the previous portfolio homework, "good" design is subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site. You may we
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-* If you want to go above and beyond, try using animations and react component libraries. Note 
-that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
-
-### React
-
-Additionally, this new portfolio should be created using React.
-
-At a minimum, your portfolio should include the following:
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-
-### Updated LinkedIn Profile 
-
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+- [React.js](https://reactjs.org/)
