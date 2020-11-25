@@ -5,7 +5,7 @@ import "./style.css";
 function NavTabs() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/Portfolio-1.1-React/">
         Mitchell Underwood
       </Link>
       <div className="navbar-collapse" id="collapsibleNavbar">
