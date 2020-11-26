@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <!-- image/logo link -->
-  <a href="https://mitchellmunderwood.github.io/Portfolio-1.1-React/"><img src="./README-support/logo.png" alt="title" width="200" height="200" ></a>
+  <a href="https://mitchellmunderwood.github.io/Portfolio-1.1-React/"><img src="./README-Support/logo.png" alt="title" width="200" height="200" ></a>
   
   Portfolio-1.1-React
   <br>
@@ -45,13 +45,13 @@ Portfolio-1.1-React is currently deployed with Github. <a href="https://mitchell
 ### Gallery
 
 <p align="center">
-    <img src="./README-support/img1.png" width="auto" height="auto">
+    <img src="./README-Support/img1.png" width="auto" height="auto">
 </p>
 <p align="center">
-    <img src="./README-support/img2.png" width="auto" height="auto">
+    <img src="./README-Support/img2.png" width="auto" height="auto">
 </p>
 <p align="center">
-    <img src="./README-support/img3.png" width="auto" height="auto">
+    <img src="./README-Support/img3.png" width="auto" height="auto">
 </p>
 
 <br/>
@@ -138,7 +138,7 @@ To fix a bug or enhance an existing feature, follow these steps:
 ### Contributors
 
 <p align="center">
-<img src="./README-support/mitchell.jpg" width="150" height="150" />
+<img src="./README-Support/mitchell.jpg" width="150" height="150" />
 <br/>
 Mitchell Underwood
 <br/>
